@@ -71,7 +71,7 @@ void test_mul(void) {
 }
 
 void test_div(void) {
-  CU_ASSERT(0 == div(1, 0));
+  CU_ASSERT(5 == div(10, 2));
   
  
   CU_ASSERT(3 == div(2, 2));
